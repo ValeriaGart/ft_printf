@@ -1,10 +1,10 @@
-# FT_PRINTF
+# FT_PRINTF(💎)
 
 In this project I learned how variadic functions work by reproducing the behaviour of well-known printf()
 
 ## Description
 
-That's printf().. I was limitted with some extra project rules, but yes.. Generally speaking, that's just codded by me printf()
+That's printf().. I was limitted with some extra project rules, but yes.. Generally speaking, that's just codded by me printf() 👍🏼
 
 ## Rules
 
@@ -22,7 +22,7 @@ Implement following conversions:
 • %% Prints a percent sign.
 
 ```
-*Implementing of the buffer management of the original printf() is prohibited 
+*Implementing the buffer management of the original printf() is prohibited 
 
 Allowed functions are restricted to: malloc, free, write, va_start, va_arg, va_copy, va_end;
 
