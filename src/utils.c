@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vharkush <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vharkush <vharkush@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 21:25:45 by vharkush          #+#    #+#             */
-/*   Updated: 2023/02/09 10:24:52 by vharkush         ###   ########.fr       */
+/*   Updated: 2024/01/09 19:25:07 by vharkush         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ void	ft_uputnum(unsigned long int n, unsigned long int *i, char *c)
 	}
 	else
 	{
-		ft_putnum(n / 10, (int *)i, c);
-		ft_putnum(n % 10, (int *)i, c);
+		ft_uputnum(n / 10, (unsigned long int *)i, c);
+		ft_uputnum(n % 10, (unsigned long int *)i, c);
 	}
 }
 
