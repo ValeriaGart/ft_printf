@@ -35,7 +35,9 @@ Additionally to mandatory:
 # USAGE
 
 `make` to compile 
+
 `make bonus` to compile with bonus part 
 
 `make clean` to remove all the object files
+
 `make fclean` to delete object files + executable + libft.a 
